@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Characteristics Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="custom_vis.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Superhero Characteristics Floral Exhibit</h1>
+        <p class="description">In this visualization, Superheros Characteristics are visualized in floral shapes.
+        <br>
+        <strong>Petal Shape and Color:</strong> Represents gender, with unique shapes and colors for each type.
+        <br>
+        <strong>Number of Petals:</strong> Indicates strength, with more petals denoting higher strength.
+        <br>
+        <strong>Petal Size:</strong> Corresponds to intelligence; larger petals represent higher intelligence.
+        <br>
+        <strong>Hovering on the flower:</strong> Display's Name, Alignment, Strength, Gender and Intelligence. 
+        <br>
+        <strong>Clicking on the flower:</strong> Opens Link to superhero picture.
+        </p>
+
+    </header>
+
+    <main>
+        <section class="visualization">
+            <div id="legends-container">
+                <div id="legends-petals" class="legend-container"></div>
+                <div id="legends-flower" class="legend-container"></div>
+                <div id="legends-flower_scale" class="legend-container"></div>
+            </div>
+            <h2>Visualization</h2>
+            <div id="visualization-container">
+                <div id="petals" class="legend-container"></div>
+                <div id="flowers" class="legend-container"></div>
+            </div>
+            <div class="pagination">
+                <button id="prevPage" disabled>Previous</button>
+                <a id = "pageNumbers"></a>
+                <button id="nextPage">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Category:</strong> Combinatorial Visualization</p>
+        <p class="description">
+            This visualization is classified as "Combinatorial" due to its inspiration from <a href ="https://shirleywu.studio/filmflowers/">Film Flowers</a> by Shirley Wu. This approach presents data in a floral pattern, transcending standard chart types for a unique, visually engaging representation. I have adapted this approach to map superheros characteristics. The code references are <a href ="https://dev.to/jessesbyers/create-custom-forecast-flower-icons-with-d3-jg6">Jesse Smith Byers blog</a> for custom flower drawing and <a href ="https://dev.to/liaowow/when-art-meets-data-flowers-as-visual-metaphor-1ekl">Annie Liao Wow's blog</a> for drawing petal shapes.  
+        </p>
+    </footer>
+
+    
+</body>
+</html>
