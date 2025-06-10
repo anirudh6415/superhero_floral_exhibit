@@ -46,6 +46,7 @@ The **Superhero Floral Exhibit** transforms superhero characteristics into a gar
 ├── style.css # Styling for layout and visuals
 ├── custom_vis.js # D3 logic and rendering
 └── dataset/ # Superhero dataset (if applicable)
+
 ---
 
 ## 🎓 Credits
